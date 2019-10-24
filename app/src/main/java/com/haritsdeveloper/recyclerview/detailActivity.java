@@ -15,5 +15,7 @@ public class detailActivity extends AppCompatActivity {
 
         String idDetail = getIntent().getStringExtra(KEY_MOVIE);
         Toast.makeText(this,idDetail,Toast.LENGTH_SHORT).show();
+        
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 }
